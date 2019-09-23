@@ -37,3 +37,16 @@ print(dictionary_crazy_ex.keys())
 # Get out all of the values
 
 print(dictionary_crazy_ex.values())
+
+# remove item from dictionary
+dictionary_crazy_ex.pop('Kile')
+print(dictionary_crazy_ex)
+
+#Better example of a dictionary:
+
+crazy1 = {
+    'name': 'Carolina',
+    'phone': '07842715517',
+    'address': 'Location 1, at places',
+    'known places to avoid': ['Milan','Lisbon', 'Tavira']
+}
