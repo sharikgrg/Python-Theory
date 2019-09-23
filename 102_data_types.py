@@ -48,4 +48,29 @@ print(my_variable1 is my_variable2)
 print(my_variable1 is not my_variable2)
 
 # Boolean Values
+# Define by either True or False
+print(type(True))
+print(type(False))
+print (0 == False)
+print(1 == True)
 
+## None
+print(None)
+print(type(None))
+print(bool(None))
+
+#Logical And & Or
+a = True
+b = False
+print('Logical and & or -------')
+# Using *and* both sides have to be true for it to result in true
+print(a and True)
+print((1==1) and (True))
+print((1==1) and False)
+
+#Use or only one side needs to be true
+print('this will print true-----')
+print(True or False)
+print(True or 1==2)
+print('this will print false -----------')
+print(False or 1==2)
