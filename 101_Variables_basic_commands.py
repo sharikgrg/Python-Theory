@@ -28,3 +28,9 @@ print(type(14))
 print(type(14.0))
 Variable_num = '14'
 # print(type('10'*Variable_num)) # This will break
+
+# input()
+# it prompts user for an intput
+print('What is your favourite colour?')
+user_respone = input('really')
+print('your favourite colour is', user_respone)
