@@ -61,3 +61,18 @@ print (hybridlist)
 my_tuple = (2, 'hello', 22, 'more value')
 print(my_tuple)
 print(type(my_tuple))
+
+
+# Range Slicing
+print(crazy_ex_partners)
+print(crazy_ex_partners[:1]) # 0 to 1, is not inclusive of the 1
+print(crazy_ex_partners[1:2]) # from 1 to 2, not inclusive of 2
+
+
+# Jumping/Slicing
+# syntax[N::M]
+# N is where it starts
+# M is numer skipped
+example_list = [0,1,2,3,4,5,6,7,8,9]
+print(example_list[::2])
+print(example_list[1::3])

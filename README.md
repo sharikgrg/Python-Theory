@@ -5,13 +5,40 @@ The course will cover the following
 
 1) SETUP
 2) Datatypes
+- how to define/Syntax
+- How to access/ How is organized
+- How to add a list or a dictionary
     1) Strings
     2) Integer
     3) Float - like a decimal
     4) Boolean
     5) Dates and Times
     6) Lists (Collections)
+     - syntax - 
+     
+            listname = ['value1', 'value2']
+     - access - 
+     
+            print(listname[0])) 
+     - adding
+     
+            listname('Cyral Figus')
+     
     7) Dictionaries 
+    - defining syntax -    
+        
+            dictionaryname{ NameOfKey : Value, 2ndNameOfKey : Value}
+                    
+    - access - to access NameOfKey key = 
+    
+            print(dictionaryname['NameOfKey'])
+    - adding - 
+    
+            dictionaryname['Kile'] = 'Likes Monster' 
+    - removing - 
+    
+            dictionaryname.pop('Kile')
+    
  3) Control Flow
     1) If
     2) For Loops
