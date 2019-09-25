@@ -25,24 +25,43 @@ story = {
     'middle': planet,
     'end': verdict
 }
-while number != 4:
-    number = int(input('choose a number between 1, 2 and 3 to read the story or 4 to exit: '.upper())) ## pauses the loop
+while number != 5:
+    number = int(input('choose a number between 1, 2, 3 or 4 to read the story or 5 to exit: '.upper())) ## pauses the loop
     if number == 1:
         print(f'There was a person called {story["hero"]}. He was living on a country called {story["beginning"]} on a planet called {story["middle"]}.')
         print(f'He fought with his life and {story["end"]}')
+        print('----------------------------------------------------------------------------')
     elif number == 2:
         print(f'{story["hero"]} was very stupid. Everyone from his country, {story["beginning"]},')
         print(f'was stupid. Infact, the whole planet, called {story["middle"]}, was full of stupid.')
         print(f'"surprisingly" the stupidness never {story["end"]} ')
+        print('----------------------------------------------------------------------------')
     elif number == 3:
         print(f'{story["hero"]} had a little lamb. Everyone from his country, {story["beginning"]},')
         print(f'had a little lamb. Actually their planet, {story["middle"]}, did not have little lamb.')
         print(f'Those lambs were really massive. Hence, Everyone {story["end"]} ')
+        print('----------------------------------------------------------------------------')
     elif number == 4:
+        print(f'There was a person called {story["hero"]}. He was living on a country called {story["beginning"]} on a planet called {story["middle"]}.')
+        print(f'He fought with his life and {story["end"]}')
+        print('----------------------------------------------------------------------------')
+        print(f'{story["hero"]} was very stupid. Everyone from his country, {story["beginning"]},')
+        print(f'was stupid. Infact, the whole planet, called {story["middle"]}, was full of stupid.')
+        print(f'"surprisingly" the stupidness never {story["end"]} ')
+        print('----------------------------------------------------------------------------')
+        print(f'{story["hero"]} had a little lamb. Everyone from his country, {story["beginning"]},')
+        print(f'had a little lamb. Actually their planet, {story["middle"]}, did not have little lamb.')
+        print(f'Those lambs were really massive. Hence, Everyone {story["end"]} ')
+        print('----------------------------------------------------------------------------')
+
+    elif number == 5:
         print('...Hope you enjoyed the stories...'.upper())
+        print('----------------------------------------------------------------------------')
         break
+
     elif type(number)== int:
         print('!!!you need to choose a number between 1, 2 or 3!!')
+        print('----------------------------------------------------------------------------')
 
 # number = ''
 # while number != 1:

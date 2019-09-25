@@ -32,18 +32,18 @@ for k in students:
     for ki in students[k]:
         print (ki, students[k][ki])
 
-# for student_key in students:
-#     count_1 = 1
-#     for key in students[student_key]:
-#         print(count_1, ':', key, students[student_key][key])
-#         count_1 += 1
-# for key in students:
-#     print(key, students[key])
-# for key in student1:
-#     print(key, ':', student1[key])
-#
-# for key in students['student1' 'student2']:
-#     print(key, ':', students['student1' 'student2'][key])
+for student_key in students:
+    count_1 = 1
+    for key in students[student_key]:
+        print(count_1, ':', key, students[student_key][key])
+        count_1 += 1
+for key in students:
+    print(key, students[key])
+for key in student1:
+    print(key, ':', student1[key])
+
+for key in students['student1' 'student2']:
+    print(key, ':', students['student1' 'student2'][key])
 
 
 

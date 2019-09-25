@@ -10,8 +10,8 @@
     # WELLL DONE! YOU can now talk to me
     # Exit
 student = ''
-answer1 = "I'm a doctor"
-answer2 = str('')
+answer1 = ("I'm a doctor").lower()
+
 while student != answer1.lower():
     student = input("what's up?? ")
     if student.find('?') != -1:
@@ -21,6 +21,5 @@ while student != answer1.lower():
     elif student == answer1.lower():
         print('WELLL DONE! YOU can now talk to me')
         break
-    elif type(student) == str:
+    elif student.find('?') == -1 or student.find('!') == -1 or student != answer1.lower() or type(student) == str:
         print('Go back to school!')
-
