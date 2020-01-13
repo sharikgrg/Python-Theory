@@ -1,4 +1,4 @@
-#Engineering 42 Python Basics :Taco:
+# Engineering 42 Python Basics :taco:
 
 This repo contains our basics for Python
 The course will cover the following
@@ -9,7 +9,7 @@ The course will cover the following
 - How to access/ How is organized
 - How to add a list or a dictionary
     1) Strings
-    2) Integer
+    2) Integer 
     3) Float - like a decimal
     4) Boolean
     5) Dates and Times
@@ -45,7 +45,7 @@ The course will cover the following
     3) While Loops
  4) Functions
     1) Dry
-    2) TDD
+    2) TDD - Test Driven Development
  5) OOP
     1) OOP
     2) Four Pillars
